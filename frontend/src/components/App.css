@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* Custom CSS */
+
+.top-bar {
+  padding: 10px 0;
+  background: #428bca;
+  text-align: center;
+}
+
+.top-bar h1 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+.post {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.postBody {
+  font-size: 16px;
+}
+
+.createForm {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.modalForm {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.createItem {
+  margin-top: 25px;
+}
+
+.open-create-edit {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.btn-group-wrap {
+  text-align: center;
+}
+
+div.btn-group {
+  margin: 0 auto; 
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+a {
+  float: left;   
+}
+
+.close-post {
+  display: block;
+  top: 20px;
+  left: 15px;
+  width: 50px;
+  height: 53px;
+  background: white;
+  background-image: url('../utils/icons/arrow-back.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  font-size: 0;
+}
+
+.open-create-edit a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #428bca;
+  background-image: url('../utils/icons/add.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size: 0;
+}
+
+.open-create-edit span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #428bca;
+  background-image: url('../utils/icons/add.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size: 0;
+}
+
+.tab { margin-left: 20px; }
+
+.postButton {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.required {
+  font-size: 12px;
+}
+
